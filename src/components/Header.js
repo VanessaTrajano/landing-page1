@@ -4,13 +4,19 @@ import Nav from './headerComponents/Nav'
 import SignInButton from './headerComponents/SignInButton'
 import TitleText from './headerComponents/TitleText'
 
+import * as S from '../Style.js'
+
 export default function Header() {
     return (
-        <header>
-            <Nav />
-            <SignInButton />
-            <TitleText />
-            <Images />
-        </header>
+        <S.HeaderContainer>
+            <S.HeaderNavigation>
+                <Nav />
+                <SignInButton />
+            </S.HeaderNavigation>
+            <S.HeaderContent>
+                <TitleText />
+                <Images />
+            </S.HeaderContent>
+        </S.HeaderContainer>
     )
 }

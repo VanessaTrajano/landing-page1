@@ -1,11 +1,13 @@
 import React from 'react'
 
+import * as S from '../../Style.js'
+
 export default function SignInButton(){
   return(
-    <div>
-        <button>
+    <>
+        <S.Button>
             Sign in
-        </button>
-    </div>
+        </S.Button>
+    </>
   )
 }
