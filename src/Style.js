@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const HeaderContainer = styled.header`
-    background-image: linear-gradient(to bottom right, rgba(73, 190, 255, 0.3) 30%, #fff 70%);
+    background-image: linear-gradient(to bottom right, rgba(73, 190, 255, 0.3) 30%, #fff 55%);
 `
 
 export const HeaderNavigation = styled.div`
@@ -138,4 +138,149 @@ export const HeaderImage3 = styled.img`
     position: absolute;
     right: 0;
     top: 80%;
+`
+
+export const Main = styled.main`
+    border: 1px solid green;
+    height: 120vh;
+    display: flex;
+    margin-top: 13vh;
+    font-family: 'Poppins', sans-serif;
+`
+
+export const NavBarraLateral = styled.nav`
+    height: 100%;
+    width: 20%;
+`
+
+export const BarraLateralList = styled.ul`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+
+    li{
+        font-size: 3vh;
+        height: 6%;
+        display:flex;
+        align-items: center;
+        margin-left:15%;
+        color: rgba(29, 29, 29, 0.8);
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover{
+            background-color: ;
+            color: rgb(29, 29, 29);
+            margin-left: 8%;
+            border-left: 3px solid #83067F;
+            border-radius: 1px;
+            padding: 2%;
+            font-weight: bold;
+        }
+    }
+`
+
+export const DivBox = styled.div`
+    width: 80%;
+`
+
+export const GoogleBox = styled.div`
+    width: 100%;
+    height: 40%;
+    display: flex;
+`
+
+export const Box1 = styled.div`
+    width:25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+
+    img{
+        width: 80%;
+        margin-top: 1%;
+    }
+
+    h2{
+        margin-top: 5%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        font-size: 3.5vh;
+        color: #1D1D1D;
+
+        span{
+            font-size: 3vh;
+            color: #83067F;
+        }
+    }
+`
+
+export const Box2 = styled.div`
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top:3%;
+    font-size:3vh;
+    text-align: center;
+
+    img{
+        width:100%;
+    }
+`
+
+export const Box3 = styled.div`
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 2% 4%;
+
+    h2{
+        position: relative;
+        font-size: 2.7vh;
+        color:#83067F;
+        font-weight:bold;
+        letter-spacing: 1.5px;
+    }
+
+    h2::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        width: 200%;
+        left: -100%;
+        height: 2px;
+        border-radius: 2px;
+        background: linear-gradient(to right, #fff, #83067F);
+      }
+`
+
+export const Circulo = styled.div`
+    background-color: #1D1D1D;
+    width: 28%;
+    height: 20%;
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition: 0.4s;
+
+    img{
+        width:50%;
+    }
+
+    &:hover{
+        width: 30%;
+        height: 22%;
+    }
 `

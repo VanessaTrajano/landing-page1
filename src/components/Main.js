@@ -3,12 +3,16 @@ import BarraLateral from './mainComponents/BarraLateral'
 import Box from './mainComponents/Box'
 import RetanguloInicio from './mainComponents/RetanguloInicio'
 
+import * as S from '../Style.js'
+
 export default function Main() {
     return (
-        <main>
+        <S.Main>
             <BarraLateral />
-            <RetanguloInicio />
-            <Box />
-        </main>
+            <S.DivBox>
+                <RetanguloInicio />
+                <Box />
+            </S.DivBox>
+        </S.Main>
     )
 }
