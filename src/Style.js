@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const HeaderContainer = styled.header`
-    background-image: linear-gradient(to bottom right, rgba(73, 190, 255, 0.3) 30%, #fff 55%);
+    background-image: linear-gradient(to bottom right, rgba(73, 190, 255, 0.3) 10%, #fff 90%);
 `
 
 export const HeaderNavigation = styled.div`
@@ -141,7 +141,6 @@ export const HeaderImage3 = styled.img`
 `
 
 export const Main = styled.main`
-    border: 1px solid green;
     height: 120vh;
     display: flex;
     margin-top: 13vh;
@@ -172,7 +171,6 @@ export const BarraLateralList = styled.ul`
         transition: 0.4s;
 
         &:hover{
-            background-color: ;
             color: rgb(29, 29, 29);
             margin-left: 8%;
             border-left: 3px solid #83067F;
@@ -185,12 +183,17 @@ export const BarraLateralList = styled.ul`
 
 export const DivBox = styled.div`
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 `
 
 export const GoogleBox = styled.div`
-    width: 100%;
+    width: 90%;
     height: 40%;
     display: flex;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #EFF9FF 30%, #FCF5FF 55%);
 `
 
 export const Box1 = styled.div`
@@ -266,7 +269,7 @@ export const Box3 = styled.div`
 
 export const Circulo = styled.div`
     background-color: #1D1D1D;
-    width: 28%;
+    width: 33%;
     height: 20%;
     border-radius: 50%;
     display: flex;
@@ -280,7 +283,7 @@ export const Circulo = styled.div`
     }
 
     &:hover{
-        width: 30%;
+        width: 36%;
         height: 22%;
     }
 `
