@@ -4,11 +4,11 @@ import * as S from '../../Style.js'
 
 export default function Box({promo, empresa, text, bottom}){
   return(
-    <div>
+    <S.BoxContainer>
       <div>{promo}</div>
       <img src={empresa} />
       <p>{text}</p>
       <div>{bottom}</div>
-    </div>
+    </S.BoxContainer>
   )
 }

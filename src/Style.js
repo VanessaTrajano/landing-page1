@@ -287,3 +287,19 @@ export const Circulo = styled.div`
         height: 22%;
     }
 `
+
+export const ContainerAllBox = styled.div`
+    width: 80%;
+    height: 60%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2%;
+`
+
+export const BoxContainer = styled.div`
+    border: 1px solid green;
+    width: 30%;
+    height: 40%;
+`
