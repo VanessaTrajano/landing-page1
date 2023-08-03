@@ -291,15 +291,95 @@ export const Circulo = styled.div`
 export const ContainerAllBox = styled.div`
     width: 80%;
     height: 60%;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 2%;
 `
 
 export const BoxContainer = styled.div`
-    border: 1px solid green;
+    border: 0.5px solid rgb(73, 190, 255, 0.3);
     width: 30%;
-    height: 40%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 1%;
+
+    &:hover{
+        box-shadow: 5px 5px 5px rgb(73, 190, 255, 0.3);
+        margin-right: 2%;
+        margin-bottom: 2%;
+        margin-top: -1%;
+        margin-left: -1%;
+    }
+`
+
+export const BoxPromo = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+    width: 100%;
+    height: 18%;
+    //border: 1px solid red;
+`
+
+export const Save = styled.span`
+    color: #83067F;
+    font-size: 2vh;
+    font-weight: 900;
+    //border: 1px solid purple;
+`
+
+export const Price = styled.span`
+    color: #1D1D1D;
+    font-size: 3vh;
+    font-weight: 900;
+   // border: 1px solid orange;
+`
+
+export const Free = styled.p`
+    color: #83067F;
+    font-size: 3vh;
+    font-weight: 900;
+    margin-right: 3%;
+   // border: 1px solid purple;
+`
+
+export const ImageEmp = styled.img`
+  //  border: 1px solid purple;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: fit-content;
+`
+
+export const TextBox = styled.p`
+  //  border: 1px solid red;
+    height: 25%;
+    margin-left: 5%;
+    width: 79%;
+    font-size: 2vh; 
+`
+
+export const BottomBox = styled.div`
+    background-color: #1D1D1D;
+    height: 17%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5%;
+`
+
+export const Code = styled.p`
+    color: #fff;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
 `

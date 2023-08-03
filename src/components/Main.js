@@ -20,12 +20,12 @@ export default function Main() {
             <S.DivBox>
                 <RetanguloInicio />
                 <S.ContainerAllBox>
-                    <Box promo={<p><span>SAVE</span><span> $ 30</span></p>} empresa={Circleci} text='Continuous Integration and Delivery' bottom={<img src={Seta} />} />
-                    <Box promo={<p><span>SAVE</span><span> $ 90</span></p>} empresa={Hubspot} text='Inbound Marketing, Sales, and Service Software' bottom={<p>USE CODE</p>} />
-                    <Box promo={<p><span>SAVE</span><span> $ 50</span></p>} empresa={Atlas} text='Start a Business with Our Startup Toolkit' bottom={<img src={Seta} />} />
-                    <Box promo={<p><span>SAVE</span><span> $ 3000</span></p>} empresa={Stripe} text='Online payment processing for internet businesses' bottom={<img src={Seta} />} />
-                    <Box promo={<p>FREE</p>} empresa={Remotebay} text='Remote internships and interns online' bottom={<img src={Seta} />} />
-                    <Box promo={<p><span>SAVE</span><span> $ 30</span></p>} empresa={Brightdata} text='All-In-One Solutions to Unblock and Collect Any Web Data' bottom={<img src={Seta} />} />
+                    <Box promo={<p><S.Save>SAVE</S.Save><S.Price> $ 30</S.Price></p>} empresa={Circleci} text='Continuous Integration and Delivery' bottom={<img src={Seta} />} />
+                    <Box promo={<p><S.Save>SAVE</S.Save><S.Price> $ 90</S.Price></p>} empresa={Hubspot} text='Inbound Marketing, Sales, and Service Software' bottom={<S.Code>USE CODE</S.Code>} />
+                    <Box promo={<p><S.Save>SAVE</S.Save><S.Price> $ 50</S.Price></p>} empresa={Atlas} text='Start a Business with Our Startup Toolkit' bottom={<img src={Seta} />} />
+                    <Box promo={<p><S.Save>SAVE</S.Save><S.Price> $ 3000</S.Price></p>} empresa={Stripe} text='Online payment processing for internet businesses' bottom={<img src={Seta} />} />
+                    <Box promo={<S.Free>FREE</S.Free>} empresa={Remotebay} text='Remote internships and interns online' bottom={<img src={Seta} />} />
+                    <Box promo={<p><S.Save>SAVE</S.Save><S.Price> $ 30</S.Price></p>} empresa={Brightdata} text='All-In-One Solutions to Unblock and Collect Any Web Data' bottom={<img src={Seta} />} />
                 </S.ContainerAllBox>
             </S.DivBox>
         </S.Main>
