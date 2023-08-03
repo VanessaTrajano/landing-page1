@@ -298,6 +298,7 @@ export const ContainerAllBox = styled.div`
 `
 
 export const BoxContainer = styled.div`
+    position: relative;
     border: 0.5px solid rgb(73, 190, 255, 0.3);
     width: 30%;
     height: 45%;
@@ -310,10 +311,8 @@ export const BoxContainer = styled.div`
 
     &:hover{
         box-shadow: 5px 5px 5px rgb(73, 190, 255, 0.3);
-        margin-right: 2%;
-        margin-bottom: 2%;
-        margin-top: -1%;
-        margin-left: -1%;
+        top: -1%;
+        left: -1%;
     }
 `
 
