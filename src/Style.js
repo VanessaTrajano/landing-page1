@@ -194,6 +194,7 @@ export const GoogleBox = styled.div`
     display: flex;
     border-radius: 30px;
     background-image: linear-gradient(to bottom right, #EFF9FF 30%, #FCF5FF 55%);
+    z-index: -1;
 `
 
 export const Box1 = styled.div`
@@ -221,6 +222,17 @@ export const Box1 = styled.div`
             color: #83067F;
         }
     }
+`
+
+export const Color = styled.div`
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    left:23.5%;
+    border-radius: 50%;
+    height: 30%;
+    width: 15%;
+    background: radial-gradient(rgb(200, 82, 255, 0.28) 10%, rgb(73, 190, 255, 0.3), rgb(239, 249, 255, 0.05), transparent);
 `
 
 export const Box2 = styled.div`
@@ -299,7 +311,7 @@ export const ContainerAllBox = styled.div`
 
 export const BoxContainer = styled.div`
     position: relative;
-    border: 0.5px solid rgb(73, 190, 255, 0.3);
+    //border: 0.5px solid rgb(73, 190, 255, 0.3);
     width: 30%;
     height: 45%;
     display: flex;
@@ -308,9 +320,10 @@ export const BoxContainer = styled.div`
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     margin: 1%;
+    box-shadow: 5px 5px 20px rgb(73, 190, 255, 0.3);
 
     &:hover{
-        box-shadow: 5px 5px 5px rgb(73, 190, 255, 0.3);
+        background-image: linear-gradient(to right, #EFF9FF, #FCF5FF 70%);
         top: -1%;
         left: -1%;
     }
@@ -323,21 +336,20 @@ export const BoxPromo = styled.div`
     padding-right: 2%;
     width: 100%;
     height: 18%;
-    //border: 1px solid red;
 `
 
 export const Save = styled.span`
     color: #83067F;
     font-size: 2vh;
     font-weight: 900;
-    //border: 1px solid purple;
 `
 
 export const Price = styled.span`
     color: #1D1D1D;
     font-size: 3vh;
     font-weight: 900;
-   // border: 1px solid orange;
+    border-radius: 50%;
+   // background: radial-gradient(rgb(200, 82, 255, 0.28) 10%, rgb(73, 190, 255, 0.3), rgb(239, 249, 255, 0.05), transparent);
 `
 
 export const Free = styled.p`
@@ -345,11 +357,9 @@ export const Free = styled.p`
     font-size: 3vh;
     font-weight: 900;
     margin-right: 3%;
-   // border: 1px solid purple;
 `
 
 export const ImageEmp = styled.img`
-  //  border: 1px solid purple;
     height: 30%;
     margin-top: 3%;
     margin-left: 5%;
@@ -357,7 +367,6 @@ export const ImageEmp = styled.img`
 `
 
 export const TextBox = styled.p`
-  //  border: 1px solid red;
     height: 25%;
     margin-left: 5%;
     width: 79%;

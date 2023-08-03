@@ -10,6 +10,7 @@ export default function RetanguloInicio(){
   return(
     <S.GoogleBox>
       <S.Box1>
+        <S.Color></S.Color>
         <img src={TittleGoogle}/>
         <h2><span>SAVE</span> $ 100 000</h2>
       </S.Box1>
