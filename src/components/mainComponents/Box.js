@@ -6,7 +6,7 @@ export default function Box({promo, empresa, text, bottom}){
   return(
     <S.BoxContainer>
       <S.BoxPromo>{promo}</S.BoxPromo>
-      <S.ImageEmp src={empresa} />
+      <S.ImageEmp src={empresa} alt='empresa' />
       <S.TextBox>{text}</S.TextBox>
       <S.BottomBox>{bottom}</S.BottomBox>
     </S.BoxContainer>

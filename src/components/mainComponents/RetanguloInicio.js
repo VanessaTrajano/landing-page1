@@ -11,17 +11,17 @@ export default function RetanguloInicio(){
     <S.GoogleBox>
       <S.Box1>
         <S.Color></S.Color>
-        <img src={TittleGoogle}/>
+        <img src={TittleGoogle} alt='title google'/>
         <h2><span>SAVE</span> $ 100 000</h2>
       </S.Box1>
       <S.Box2>
-        <img src={ImageGoogle}/>
+        <img src={ImageGoogle} alt='image google'/>
         <p>Google Cloud Platform - Tools & Modern Applications</p>
       </S.Box2>
       <S.Box3>
         <h2>NEW</h2>
         <S.Circulo>
-          <img src={Seta}/>
+          <img src={Seta} alt='seta'/>
         </S.Circulo>
       </S.Box3>
     </S.GoogleBox>
