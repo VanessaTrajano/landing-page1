@@ -19,6 +19,10 @@ export const HeaderNavigation = styled.div`
     display: flex;
     align-items:center;
     justify-content: space-around;
+    @media(max-width: 700px){
+        justify-content: right;
+        padding-right: 2%;
+    }
 `
 
 export const Nav = styled.nav`
@@ -26,6 +30,10 @@ export const Nav = styled.nav`
     height:100%;
     margin-left: 40vw;
     font-family: 'Poppins', sans-serif;
+    
+    @media(max-width: 700px){
+        display:none;
+    }
 `
 
 export const Navigation = styled.ul`
@@ -145,11 +153,25 @@ export const Main = styled.main`
     display: flex;
     margin-top: 13vh;
     font-family: 'Poppins', sans-serif;
+
+    @media(max-width: 860px){
+        height: 160vh;
+    }
+    @media(max-width: 700px){
+        height: 240vh;   
+    }
 `
 
 export const NavBarraLateral = styled.nav`
     height: 100%;
     width: 20%;
+
+    @media(max-width: 860px){
+        height: 70%;
+    }
+    @media(max-width: 700px){
+        height:50%; 
+    }
 `
 
 export const BarraLateralList = styled.ul`
@@ -195,6 +217,13 @@ export const GoogleBox = styled.div`
     border-radius: 30px;
     background-image: linear-gradient(to bottom right, #EFF9FF 30%, #FCF5FF 55%);
     z-index: -1;
+
+    @media(max-width: 860px){
+        height: 25%;
+    }
+    @media(max-width: 700px){
+        height:15%;
+    }
 `
 
 export const Box1 = styled.div`
@@ -233,6 +262,14 @@ export const Color = styled.div`
     height: 30%;
     width: 15%;
     background: radial-gradient(rgb(200, 82, 255, 0.28) 10%, rgb(73, 190, 255, 0.3), rgb(239, 249, 255, 0.05), transparent);
+
+    @media(max-width: 860px){
+        height: 20%;
+    }
+    @media(max-width: 700px){
+        width:18%;
+        top: 98%;
+    }
 `
 
 export const Box2 = styled.div`
@@ -307,11 +344,18 @@ export const ContainerAllBox = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 2%;
+
+    @media(max-width: 860px){
+        height: 75%;
+    }
+    @media(max-width: 700px){
+        height:85%;
+        justify-content: center;
+    }
 `
 
 export const BoxContainer = styled.div`
     position: relative;
-    //border: 0.5px solid rgb(73, 190, 255, 0.3);
     width: 30%;
     height: 45%;
     display: flex;
@@ -326,6 +370,15 @@ export const BoxContainer = styled.div`
         background-image: linear-gradient(to right, #EFF9FF, #FCF5FF 70%);
         top: -1%;
         left: -1%;
+    }
+
+    @media(max-width: 860px){
+        height: 30%;
+        width: 42%;
+    }
+    @media(max-width: 700px){
+        width: 60%;
+        height: 15%;
     }
 `
 

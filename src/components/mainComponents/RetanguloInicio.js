@@ -15,7 +15,7 @@ export default function RetanguloInicio(){
         <h2><span>SAVE</span> $ 100 000</h2>
       </S.Box1>
       <S.Box2>
-        <img src={ImageGoogle} alt='image google'/>
+        <img src={ImageGoogle} alt='imagem do google'/>
         <p>Google Cloud Platform - Tools & Modern Applications</p>
       </S.Box2>
       <S.Box3>
