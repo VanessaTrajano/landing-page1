@@ -25,6 +25,14 @@ export const HeaderNavigation = styled.div`
     }
 `
 
+export const Hamburguer = styled.div`
+    display: none;
+
+    @media(max-width: 700px){
+        display: block;
+    }
+`
+
 export const Nav = styled.nav`
     width:30%;
     height:100%;
